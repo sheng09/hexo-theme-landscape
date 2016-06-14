@@ -1,9 +1,10 @@
 # Revision by Sheng Wang
 
 1. add "Back to top" button
-2. add "Search menu" associating swiftype
-3. change appearance a little
-
+2. add "Share" of Tecent,Wechat,Renren,Weibo
+3. add "Search menu" associating swiftype
+4. change appearance a little
+5. add recent_comment widget of disqus
 
 # Landscape
 
