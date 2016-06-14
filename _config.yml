@@ -2,7 +2,10 @@
 menu:
   Home: /
   Archives: /archives
+  Search: /search
+#  CategorS: /categories
 rss: /atom.xml
+search_icon: false
 
 # Content
 excerpt_link: Read More
@@ -13,25 +16,29 @@ sidebar: right
 widgets:
 - category
 - tag
-- tagcloud
+#- tagcloud
 - archive
 - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
+  - tag
 # - category
 # - tagcloud
 # - archive
 
 # widget behavior
 archive_type: 'monthly'
-show_count: false
+show_count: true
 
 # Miscellaneous
-google_analytics:
-gauges_analytics:
+#google_analytics:
 favicon: /favicon.png
 twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+#For search by Sheng Wang
+swift_search:
+  enable: true

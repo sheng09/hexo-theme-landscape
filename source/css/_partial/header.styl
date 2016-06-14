@@ -10,10 +10,10 @@
     height: 40px
   &:before
     top: 0
-    background: linear-gradient(rgba(0, 0, 0, 0.2), transparent)
+#    background: linear-gradient(rgba(0, 0, 0, 0.2), transparent)
   &:after
     bottom: 0
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.2))
+#    background: linear-gradient(transparent, rgba(0, 0, 0, 0.2))
 
 #header-outer
   height: 100%
@@ -64,7 +64,7 @@ $logo-text
 
 #main-nav
   float: left
-  margin-left: -15px
+  margin-left: 0px
 
 $nav-link
   float: left
@@ -91,6 +91,7 @@ $nav-link
 
 .main-nav-link
   @extend $nav-link
+  color: #fff
   font-weight: 300
   letter-spacing: 1px
   @media mq-mobile
@@ -114,6 +115,22 @@ $nav-link
 #nav-search-btn
   &:before
     content: "\f002"
+
+
+#search-button
+  position: absolute
+  top: 15px
+  width:  50px
+  height: 30px
+  right: 50px
+  opacity: 20
+  transition: 0.2s ease-out
+  &.on
+    opacity: 1
+    right: 0
+  @media mq-mobile
+    width: 100%
+    right: -100%
 
 #search-form-wrap
   position: absolute

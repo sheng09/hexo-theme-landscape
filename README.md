@@ -1,3 +1,10 @@
+# Revision by Sheng Wang
+
+1. add "Back to top" button
+2. add "Search menu" associating swiftype
+3. change appearance a little
+
+
 # Landscape
 
 A brand new default theme for [Hexo].
